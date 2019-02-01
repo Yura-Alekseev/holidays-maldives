@@ -1,5 +1,10 @@
 @import "reset.css";
 
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+}
+
 .header-background {
     background: rgba(18,137,167,1);
     background: -moz-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 17%, rgba(94,239,255,1) 17%, rgba(26,207,226,1) 18%, rgba(255,255,255,1) 100%);
@@ -35,7 +40,6 @@
 header {
     height: 175px;
     color: #128aa7;
-    font-size: 13px;
 }
 
 .palm {
@@ -60,12 +64,9 @@ header {
 
     padding-top: 1%;
     padding-left: 85%;
-    
 
     width: 140px;
     height: 100px;
-
-
 
     opacity: 80%;
     color: #5ca5ba;
@@ -88,5 +89,82 @@ header {
 
 .beach {
     width: 100%;
+    padding-top: 1px solid ;
 }
+
+.countries {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+figure {
+    margin-right: 15px;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 9px;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: row;
+
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.main-menu li {
+    width: 15%;
+    height: 31px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    color: #ffffff;
+
+    background: rgba(55,55,55,1);
+    background: -moz-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+    background: -o-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+    background: -ms-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+    background: linear-gradient(to bottom, rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030', GradientType=0 );
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+
+    color: #dce7ed;
+    padding: 11px;
+}
+
 
