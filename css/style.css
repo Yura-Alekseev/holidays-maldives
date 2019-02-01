@@ -1,27 +1,14 @@
 @import "reset.css";
 
-
-
 .header-background {
-    /*
-    background: rgba(94,239,255,1);
-    background: -moz-linear-gradient(top, rgba(94,239,255,1) 0%, rgba(94,239,255,1) 0%, rgba(20,205,226,1) 1%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(94,239,255,1) 0%, rgba(94,239,255,1) 0%, rgba(20,205,226,1) 1%, rgba(255,255,255,1) 100%);
-    background: -o-linear-gradient(top, rgba(94,239,255,1) 0%, rgba(94,239,255,1) 0%, rgba(20,205,226,1) 1%, rgba(255,255,255,1) 100%);
-    background: -ms-linear-gradient(top, rgba(94,239,255,1) 0%, rgba(94,239,255,1) 0%, rgba(20,205,226,1) 1%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(to bottom, rgba(94,239,255,1) 0%, rgba(94,239,255,1) 0%, rgba(20,205,226,1) 1%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5eefff', endColorstr='#ffffff', GradientType=0 );
-    */
     background: rgba(18,137,167,1);
-    background: -moz-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 9%, rgba(94,239,255,1) 9%, rgba(19,204,225,1) 10%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 9%, rgba(94,239,255,1) 9%, rgba(19,204,225,1) 10%, rgba(255,255,255,1) 100%);
-    background: -o-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 9%, rgba(94,239,255,1) 9%, rgba(19,204,225,1) 10%, rgba(255,255,255,1) 100%);
-    background: -ms-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 9%, rgba(94,239,255,1) 9%, rgba(19,204,225,1) 10%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(to bottom, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 9%, rgba(94,239,255,1) 9%, rgba(19,204,225,1) 10%, rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 17%, rgba(94,239,255,1) 17%, rgba(26,207,226,1) 18%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 17%, rgba(94,239,255,1) 17%, rgba(26,207,226,1) 18%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 17%, rgba(94,239,255,1) 17%, rgba(26,207,226,1) 18%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 17%, rgba(94,239,255,1) 17%, rgba(26,207,226,1) 18%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(18,137,167,1) 0%, rgba(18,137,167,1) 17%, rgba(94,239,255,1) 17%, rgba(26,207,226,1) 18%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1289a7', endColorstr='#ffffff', GradientType=0 );
 }
-
-
 
 .main-background {
     background: rgba(62,194,209,1);
@@ -46,34 +33,39 @@
 }
 
 header {
-
+    height: 175px;
     color: #128aa7;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .palm {
-
+    position: absolute;
     z-index: 100;
-    left: 28px;
+
+    left: 150px;
     top: 11px;
 }
 
 .tagline {
 
-    justify-content: center; /*Используешь свойство для флексов, но не сделал display:flex*/
-    left: 100px; /*Не будет работать без position:absolute*/
+    position: absolute;
+    left: 220px;
     top: 110px;
 }
 
 .contacts {
+
     display: flex;
     flex-direction: column;
+
+    padding-top: 1%;
+    padding-left: 85%;
+    
+
     width: 140px;
     height: 100px;
 
 
-    top: 10px; /*Тоже без абсолюта не запашет */
-    left: 80%;
 
     opacity: 80%;
     color: #5ca5ba;
@@ -95,8 +87,6 @@ header {
 }
 
 .beach {
-
     width: 100%;
-
 }
 
