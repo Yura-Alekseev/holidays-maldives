@@ -176,10 +176,12 @@ li:hover .submenu-travels {
     justify-content: center;
     font-size: 15px;
     font-weight: bold;
+    padding: 10px;
 }
 
 .content {
     color: #424c43;
+    height: 500px;
 }
 
 .content span {
@@ -191,21 +193,21 @@ li:hover .submenu-travels {
     float: left;
     background: #edeef0;
     width: 20%;
-    height: 500px;
+
 }
 
 .centerColumn-background {
     float: left;
     background: #ffffff;
     width: 60%;
-    height: 500px;
+
 }
 
 .rightColumn-background {
     float: left;
     background: #edeef0;
     width: 20%;
-    height: 500px;
+   
 }
 
 
