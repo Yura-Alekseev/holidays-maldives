@@ -27,7 +27,6 @@
 
 .wrapper {
     background: #ffffff;
-    z-index: 100;
 
     width: 80%;
     margin: 0 auto;
@@ -88,6 +87,7 @@ header {
     border-bottom: 1px solid #138aa7;
 }
 
+/*COUNTRIES*/
 .countries {
     display: flex;
     flex-direction: row;
@@ -106,22 +106,44 @@ figcaption {
     font-size: 9px;
 }
 
-.main-menu {
-    display: flex;
-    flex-direction: row;
+/*MAIN MENU*/
 
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
-    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.main-menu li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
 
-    width: 15%;
-    height: 31px;
+ul.main-menu > li {
+    float: left;
+    position: relative;
+    width: 14.28%;
+}
+
+ul.main-menu {
+    font-size: 14px;
+
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
+}
+
+ul.main-menu > li > a {
+    display: block;
+    padding: 10px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #ffffff;
 
     background: rgba(55,55,55,1);
     background: -moz-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%);
@@ -132,113 +154,43 @@ figcaption {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030', GradientType=0 );
 }
 
-.main-menu a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #ffffff;
-}
-
-.main-menu li:hover {
-    cursor: pointer;
-}
-
-li:hover .submenu-travels {
-    display: block;
-}
-
-.submenu-travels {
+ul.submenu-travels {
     display: none;
 
     position: absolute;
-    width: 140px;
-    top: 463px;
-    left: 314px;
+    top: 34px;
+    left: 25px;
 
-    background: #303030;
+    width: 100%;
 
     -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
     -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
 }
 
-.submenu-travels li {
+ul.submenu-travels > li {
     display: block;
 }
 
-.travels {
+ul.submenu-travels > li > a {
     display: block;
-    padding: 8px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
     background: #303030;
 }
 
+ul.main-menu > li:hover > ul.submenu-travels {
+    display: block;
+}
+
+/*COLUMNS*/
 /*
-.banner {
-    display: flex;
-    justify-content: center;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.content {
-    color: #424c43;
-    height: 500px;
-}
-
-
-
-.leftColumn-background {
-    float: left;
-    background: #edeef0;
-    width: 20%;
-    height: 100%;
-}
-
-.centerColumn-background {
-    float: left;
-    background: #ffffff;
-    width: 60%;
-    height: 100%;
-}
-
-.rightColumn-background {
-    float: left;
-    background: #edeef0;
-    width: 20%;
-    height: 100%;
-}
-
-
-.leftColumn {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-
-}
-
-.centerColumn {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.empty-content {
-   padding: 100px;
-}
-
-.rightColumn {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-*/
-
 .hidden-content {
     color: #ffffff;
 }
+*/
 
 .content {
     color: #424c43;
@@ -262,12 +214,12 @@ li:hover .submenu-travels {
     margin-bottom: 10px;
 }
 
-.columns-background {  /* фон для левой колонки (синий) */
+.columns-background {
+    margin-top: 2px;
     width: 100%;
     background: #ffffff;
     overflow: hidden;
 }
-
 
 .leftColumn {
     display: flex;
@@ -284,6 +236,7 @@ li:hover .submenu-travels {
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
+/*
 .centerColumn {
     display: flex;
     flex-direction: column;
@@ -295,6 +248,7 @@ li:hover .submenu-travels {
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
+*/
 .rightColumn {
     display: flex;
     flex-direction: column;
@@ -303,14 +257,12 @@ li:hover .submenu-travels {
     border-left: 1px solid #c7cacf;
 
     width: 20%;
-    float: left;
+    float: right;
 
     background: #edeef0;
     padding-bottom: 20000px;
     margin-bottom: -20000px;
 }
-
-
 
 .copyright {
     display: flex;
