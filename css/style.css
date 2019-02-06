@@ -4,6 +4,11 @@
     font-family: Tahoma, sans-serif;
     font-size: 12px;
 }
+header {
+    font-weight: bold;
+    height: 175px;
+    color: #128aa7;
+}
 
 .header-background {
     background: #1289a7;
@@ -36,11 +41,6 @@
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.9);
 }
 
-header {
-    height: 175px;
-    color: #128aa7;
-}
-
 .palm {
     position: absolute;
     z-index: 500;
@@ -60,9 +60,9 @@ header {
     flex-direction: column;
 
     padding-top: 1%;
-    padding-left: 85%;
+    padding-left: 83.5%;
 
-    width: 140px;
+    width: 160px;
     height: 100px;
 
     opacity: 80%;
@@ -109,11 +109,9 @@ figcaption {
 /*MAIN MENU*/
 
 .main-shadow {
-    z-index: 1000;
-
-    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
-    -moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
 }
 
 ul {
