@@ -163,12 +163,17 @@ ul.main-menu > li > a {
     color: #ffffff;
 }
 
+a.triangle:after {
+    content: url("../img/white_triangle.png");
+    margin-left: 5px;
+}
+
 ul.submenu-travels {
     display: none;
 
     position: absolute;
     top: 34px;
-    left: 25px;
+    left: 18px;
 
     width: 100%;
 
