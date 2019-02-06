@@ -108,6 +108,14 @@ figcaption {
 
 /*MAIN MENU*/
 
+.main-shadow {
+    z-index: 1000;
+
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+}
+
 ul {
     display: block;
     margin: 0;
@@ -130,10 +138,6 @@ ul.main-menu > li {
 
 ul.main-menu {
     font-size: 14px;
-
-    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
-    -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
-    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
 }
 
 ul.main-menu > li > a {
@@ -163,9 +167,9 @@ ul.submenu-travels {
 
     width: 100%;
 
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
-    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
 }
 
 ul.submenu-travels > li {
@@ -192,6 +196,13 @@ ul.main-menu > li:hover > ul.submenu-travels {
 }
 */
 
+.columns-background {
+    margin-top: 3px;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+
 .content {
     color: #424c43;
     font-size: 15px;
@@ -214,12 +225,7 @@ ul.main-menu > li:hover > ul.submenu-travels {
     margin-bottom: 10px;
 }
 
-.columns-background {
-    margin-top: 2px;
-    width: 100%;
-    background: #ffffff;
-    overflow: hidden;
-}
+
 
 .leftColumn {
     display: flex;
