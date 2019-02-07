@@ -82,19 +82,17 @@ a {
     flex-direction: row;
     justify-content: flex-end;
     padding-right: 2%;
+    text-align: center;
 }
 
 figure {
-    margin-right: 15px;
+    padding: 0 5px;
 }
 
 figcaption {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     text-decoration: underline;
     font-size: 9px;
-    margin-bottom: 2%;
 }
 
 /*PHOTO*/
