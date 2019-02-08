@@ -6,9 +6,8 @@
 }
 header {
     font-weight: bold;
-    height: 185px;
+    height: 175px;
     color: #128aa7;
-
 }
 
 a {
@@ -41,38 +40,39 @@ a {
     z-index: 500;
 
     margin-left: 2%;
-    top: 21px;
+    top: 10px;
 }
 
 .tagline {
     position: relative;
     left: 95px;
-    top: 120px;
+    top: 110px;
 }
 
 .contacts {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
 
-    padding-top: 1%;
-    padding-left: 83.5%;
-
-    width: 160px;
-    height: 100px;
+    padding-right: 3%;
 
     opacity: 80%;
     color: #5ca5ba;
 }
 
 .contacts span:first-child {
+    margin-right: 40px;
     margin-bottom: 11px;
 }
 
 .contacts span:nth-child(2) {
+    margin-right: 34px;
     margin-bottom: 8px;
 }
 
 .contacts span:nth-child(3) {
+    margin-right: 34px;
     margin-bottom: 6px;
 }
 
@@ -81,16 +81,16 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    padding-top: 27px;
     padding-right: 2%;
     text-align: center;
 }
 
 figure {
-    padding: 0 10px;
+    padding: 0 8px;
 }
 
 figcaption {
-    display: block;
     text-decoration: underline;
     font-size: 9px;
 }
