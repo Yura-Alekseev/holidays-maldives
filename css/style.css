@@ -4,14 +4,11 @@
     font-family: Tahoma, sans-serif;
     font-size: 12px;
 }
+
 header {
     font-weight: bold;
     height: 175px;
     color: #128aa7;
-}
-
-a {
-    cursor: pointer;
 }
 
 .header-background {
@@ -76,7 +73,13 @@ a {
     margin-bottom: 6px;
 }
 
+.contacts a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /*COUNTRIES*/
+
 .countries {
     display: flex;
     flex-direction: row;
@@ -84,6 +87,11 @@ a {
     padding-top: 27px;
     padding-right: 2%;
     text-align: center;
+}
+
+.countries a {
+    color: inherit;
+    text-decoration: none;
 }
 
 figure {
@@ -95,15 +103,14 @@ figcaption {
     font-size: 9px;
 }
 
-
 /*PHOTO*/
+
 .beach {
     width: 100%;
     border-top: 1px solid #138aa7;
     border-bottom: 1px solid #138aa7;
     margin-bottom: -0.25%;
 }
-
 
 /*MAIN MENU*/
 .main-background {
@@ -130,80 +137,7 @@ figcaption {
     box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
 }
 
-/*
-ul {
-    display: block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-ul:after {
-    display: block;
-    content: ' ';
-    clear: both;
-    float: none;
-}
-ul.main-menu > li {
-    float: left;
-    position: relative;
-    width: 14.28%;
-    overflow: hidden;
-    padding-bottom: 20000px;
-    margin-bottom: -20000px;
-}
-ul.main-menu {
-    font-size: 14px;
-}
-ul.main-menu > li > a {
-    display: block;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-a.triangle:after {
-    content: url("../img/white_triangle.png");
-    margin-left: 5px;
-}
-
-ul.submenu-travels {
-    display: none;
-
-    position: absolute;
-    top: 34px;
-    left: 25px;
-    left: 18px;
-
-    width: 100%;
-
-    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
-    -moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
-}
-ul.submenu-travels > li {
-    display: block;
-}
-ul.submenu-travels > li:last-child {
-    padding-bottom: 5px;
-    background: #303030;
-}
-ul.submenu-travels > li > a {
-    display: block;
-    padding: 5px 10px;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    background: #303030;
-}
-ul.main-menu > li:hover > ul.submenu-travels {
-    display: block;
-}
-*/
-
-
-
-.main-menu *{
+.main-menu * {
     margin: 0;
     padding: 0;
 }
@@ -290,7 +224,6 @@ ul.main-menu > li:hover > ul.submenu-travels {
     display: none;
     position: absolute;
 
-
     -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
     -moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
     box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
@@ -314,30 +247,7 @@ ul.main-menu > li:hover > ul.submenu-travels {
     display: block;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*COLUMNS*/
-
-/*
-.hidden-content {
-    color: #ffffff;
-}
-*/
 
 .columns-background {
     margin-top: 3px;
