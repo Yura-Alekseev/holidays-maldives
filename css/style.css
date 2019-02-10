@@ -1,0 +1,331 @@
+@import "reset.css";
+
+header {
+    font-weight: bold;
+    height: 175px;
+    color: #128aa7;
+}
+
+.header-background {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+
+    background: #1289a7;
+    background: linear-gradient(to bottom, #1289a7 0%, #1289a7 15%, #5eefff 15%, #1bcbdf 16%, #ffffff 100%);
+}
+
+.wrapper {
+    background: #ffffff;
+
+    width: 80%;
+    margin: 0 auto;
+
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.9); /*При 0 величины не ставь)*/
+    -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.9);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.9);
+
+}
+
+.palm {
+    position: absolute;
+    z-index: 500;
+
+    margin-left: 2%;
+    top: 10px;
+}
+
+.tagline {
+    position: relative;
+    left: 95px;
+    top: 110px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+
+    padding-right: 3%;
+
+    opacity: 80%;
+    color: #5ca5ba;
+}
+
+.contacts span:first-child {
+    margin-right: 40px;
+    margin-bottom: 11px;
+}
+
+.contacts span:nth-child(2) {
+    margin-right: 34px;
+    margin-bottom: 8px;
+}
+
+.contacts span:nth-child(3) {
+    margin-right: 34px;
+    margin-bottom: 6px;
+}
+
+.contacts a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*COUNTRIES*/
+
+.countries {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 27px;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.countries a {
+    color: inherit;
+    text-decoration: none;
+}
+
+figure {
+    padding: 0 8px;
+}
+
+figcaption {
+    text-decoration: underline;
+    font-size: 9px;
+}
+
+/*PHOTO*/
+
+.main-photo{
+    width: 100%;
+    border-top: 1px solid #138aa7;
+    border-bottom: 1px solid #138aa7;
+    margin-bottom: -0.25%;
+}
+
+/*MAIN MENU*/
+.main-background {
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+
+    background: #40c6d2;
+    background: -moz-linear-gradient(top, #40c6d2 0%, #39bdce 8%, #24a8bf 14%, #108faf 41%, #0f89ab 70%, #0c739f 100%);
+    background: -webkit-linear-gradient(top, #40c6d2 0%, #39bdce 8%, #24a8bf 14%, #108faf 41%, #0f89ab 70%, #0c739f 100%);
+    background: -o-linear-gradient(top, #40c6d2 0%, #39bdce 8%, #24a8bf 14%, #108faf 41%, #0f89ab 70%, #0c739f 100%);
+    background: -ms-linear-gradient(top, #40c6d2 0%, #39bdce 8%, #24a8bf 14%, #108faf 41%, #0f89ab 70%, #0c739f 100%);
+    background: linear-gradient(to bottom, #40c6d2 0%, #39bdce 8%, #24a8bf 14%, #108faf 41%, #0f89ab 70%, #0c739f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40c6d2', endColorstr='#0c739f', GradientType=0 );
+}
+
+.main-menu {
+    background: #373737;
+    background: -moz-linear-gradient(top, #373737 0%, #303030 97%, #000000 98%, #000000 100%);
+    background: -webkit-linear-gradient(top, #373737 0%, #303030 97%, #000000 98%, #000000 100%);
+    background: -o-linear-gradient(top, #373737 0%, #303030 97%, #000000 98%, #000000 100%);
+    background: -ms-linear-gradient(top, #373737 0%, #303030 97%, #000000 98%, #000000 100%);
+    background: linear-gradient(to bottom, #373737 0%, #303030 97%, #000000 98%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#000000', GradientType=0 );
+
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.75);
+}
+
+.main-menu * {
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-menu > ul li a {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-menu > ul li {
+    position: relative;
+}
+
+.main-menu > ul li:first-child {
+    width: 17.5%;
+}
+
+.main-menu > ul li:nth-child(2) {
+    width: 15%;
+}
+
+.main-menu > ul li:nth-child(3) {
+    width: 12%;
+}
+
+.main-menu > ul li:nth-child(4) {
+    width: 13.5%;
+}
+
+.main-menu > ul li:nth-child(5) {
+    width: 16%;
+}
+
+.main-menu > ul li:nth-child(6) {
+    width: 10.5%;
+}
+
+.main-menu > ul li:last-child {
+    width: 15%;
+}
+
+.main-menu > ul li > a.travels {
+    position: relative ;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.main-menu > ul li > a.services {
+    position: relative ;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.main-menu > ul li > a.partners {
+    position: relative ;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.main-menu > ul li > a i.triangles {
+    position: absolute;
+    content: url("../img/white_triangle.png");
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+/*SUBMENU*/
+
+.main-menu  li ul {
+    display: none;
+    position: absolute;
+
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.75);
+}
+
+.main-menu li > ul li {
+    min-width: 130px;
+    background: #303030;
+}
+
+.main-menu li > ul li a {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.main-menu li > ul li:last-child {
+    padding-bottom: 5px;
+}
+
+.main-menu li:hover > ul {
+    display: block;
+}
+
+/*COLUMNS*/
+
+.columns-background {
+    margin-top: 3px;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #424c43;
+    font-size: 15px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.content span {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.content span:last-child {
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+
+    width: 20%;
+
+    background: #edeef0;
+
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    width: 59.7%;
+    float: left;
+
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.news {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-self: flex-end;
+
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+
+    width: 20%;
+
+    background: #edeef0;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #dce7ed;
+    padding: 11px;
+}
+
+
